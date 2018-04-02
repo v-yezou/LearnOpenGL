@@ -1,29 +1,23 @@
-﻿生成启动时间为 2018/4/2 14:06:09。
+﻿生成启动时间为 2018/4/2 17:10:16。
      1>项目“D:\projects\OpenGL\Light\Light\Light.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\software\OpenGL\src\glad.c
-         glad.c
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>d:\projects\opengl\light\light\shader.h(64): warning C4101: “success”: 未引用的局部变量
-     1>d:\projects\opengl\light\light\shader.h(65): warning C4101: “infoLog”: 未引用的局部变量
-     1>d:\projects\opengl\light\light\main.cpp(162): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(182): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(183): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(276): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(277): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(281): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(282): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(284): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(285): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\projects\opengl\light\light\main.cpp(294): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(183): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(315): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(316): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(318): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\projects\opengl\light\light\main.cpp(328): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\OpenGL\Light\Debug\Light.exe" /INCREMENTAL /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\projects\OpenGL\Light\Debug\Light.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\OpenGL\Light\Debug\Light.lib" /MACHINE:X86 Debug\glad.obj
          Debug\main.obj
+         Debug\stb_image.obj
          Light.vcxproj -> D:\projects\OpenGL\Light\Debug\Light.exe
      1>已完成生成项目“D:\projects\OpenGL\Light\Light\Light.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.01
+已用时间 00:00:00.90
